@@ -36,11 +36,11 @@ class Song
       @@genre_count[genre]+=1 ||= 1
       
       
-      if @@genre_count.has_key?(genre)
-        @@genre_count[genre] += 1 
-      else
-        @@genre_count[genre] = 1 
-      end
+      # if @@genre_count.has_key?(genre)
+      #   @@genre_count[genre] += 1 
+      # else
+      #   @@genre_count[genre] = 1 
+      # end
     end
     @@genre_count
   end
